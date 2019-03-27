@@ -25,17 +25,3 @@ end
  new_tweet.join(" ")
 end
  
- def bulk_tweet_shortener(tweet)
-  tweet.map do |thing|
-    puts word_substituter(thing)
-  end
-end 
-   
-def selective_tweet_shortener(tweet)
-  if tweet.length >= 140 
-    tweet.map do |thing|
-    puts word_substituter(thing)
-  end
-end 
-    
-  
